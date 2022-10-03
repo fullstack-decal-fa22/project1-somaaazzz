@@ -1,0 +1,87 @@
+* {
+  background-color: rgb(50, 50, 50);
+  color: rgb(200, 200, 200);
+  text-align: center;
+  font-size: x-large;
+  transition: 0.5s;
+}
+
+i {
+  padding: 1vmin;
+  padding-top: 6vmin;
+  font-size: larger;
+  transition: 0.5s;
+}
+
+img {
+  padding: 0px;
+  margin: 0px;
+}
+
+a:hover,
+i:hover {
+  color: rgb(0, 143, 17);
+}
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.menu {
+  padding: 10vmin;
+  padding-top: 2vmin;
+  justify-content: flex-end;
+}
+
+.menu-item {
+  padding: 1vmin;
+}
+
+.me {
+  text-align: left;
+  padding-left: 25vmin;
+  padding-right: 25vmin;
+  padding-top: 10vmin;
+  padding-bottom: 0px;
+}
+
+.heading-name {
+  color: rgb(0, 143, 17);
+  font-size: 70px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.heading-work {
+  color: rgb(0, 143, 17);
+  font-size: 30px;
+  padding-top: 20vmin;
+  padding-bottom: 0px;
+  padding-right: 100%;
+  padding-left: 25vmin;
+}
+
+.work {
+  padding-left: 25vmin;
+  padding-right: 25vmin;
+  padding-bottom: 10vmin;
+  justify-content: center;
+}
+
+.work-item {
+  background-color: rgb(70, 70, 70);
+  padding: 3vmin;
+  margin: 3vmin;
+  width: 200px;
+  height: 240px;
+  padding-bottom: 5vmin;
+}
+
+.work-discription {
+  background-color: rgb(70, 70, 70);
+  font-size: small;
+  text-align: left;
+}
